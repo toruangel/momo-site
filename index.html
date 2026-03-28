@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOMO'S SITE</title>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fcfcfc;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #444;
+        }
+
+        .grid-container {
+            background-color: #ffffff;
+            width: auto;
+            max-width: 700px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        .header-section {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .pink-profile-box {
+            grid-column: 1 / -1;
+            display: flex;
+            background-color: #f0bdcc;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .sanrio-img-container {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sanrio-img {
+            width: 100%;
+            height: 350px; /* Altura fija para que coincida con el texto */
+            object-fit: cover;
+            display: block;
+        }
+
+        .profile-info-pink {
+            width: 50%;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .profile-name-pink {
+            font-size: 28px;
+            font-weight: bold;
+            color: #594056;
+            margin-bottom: 5px;
+        }
+
+        .profile-username-pink {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 15px;
+        }
+
+        .info-block {
+            padding: 10px;
+        }
+
+        .info-title {
+            font-size: 20px;
+            color: #bc6781;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .info-text {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #666;
+            margin: 0;
+        }
+
+        .media-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        /* Estilo para el link de música */
+        .music-link {
+            color: #d1b4b1;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        
+        <div class="header-section">
+            <div>MOMO'S SITE . . .</div>
+            <div>(..◜ᴗ◝..)</div>
+        </div>
+
+        <div class="pink-profile-box">
+            <div class="sanrio-img-container">
+                <img src="https://i.pinimg.com/736x/78/73/a0/7873a003077fc9a14317ee35b203cc5c.jpg" alt="Profile Image" class="sanrio-img">
+            </div>
+            
+            <div class="profile-info-pink">
+                <div class="profile-name-pink">momo</div>
+                <div class="profile-username-pink">@toruangel or @youcrying</div>
+                <p class="info-text">
+                    angels have brown hair . . .<br>
+                    she ৎ libra argentinian
+                </p>
+            </div>
+        </div>
+
+        <div class="info-block">
+            <div class="info-title">before you follow . . .</div>
+            <p class="info-text">
+                english is NOT my first language... grammar errors<br>
+                i interact with almost everything | i make kms kys jokes<br>
+                sb for unf! i rt/fav nsfw
+            </p>
+            
+            <div class="media-container">
+                <img src="https://i.pinimg.com/1200x/8c/e2/7a/8ce27a92130c64d92070327a68ef3afe.jpg" alt="foto o gif" style="width: 100%; max-width: 400px; height: 200px; object-fit: cover; border-radius: 10px;">
+            </div>
+
+            <div class="info-title">loml (♡ˊ͈ ꒳ ˋ͈) </div>
+            <p class="info-text">
+                satoru, denji, suna, wakana, kurama, xiao, tomoe, usui, kuroo . . .
+            </p>
+        </div>
+
+        <div class="info-block">
+            <div class="info-title">dont interact if . . .</div>
+            <p class="info-text">
+                basic dni criteria. hate on my interests, overuse of slurs<br>
+                homophobic, transphobic, zionist<br>
+                u can't separate reality from fiction
+            </p>
+
+            <div class="info-title" style="margin-top: 20px;">likes ( ´ ▽ ` ) </div>
+            <p class="info-text">
+                genshin crk reading jjk writing videogames fran bow!<br>
+                sanrio <a href="https://www.last.fm/user/mobchaan" target="_blank" class="music-link">music!</a> cute stuff animanga smut/fluff<br>
+                csm green discord haikyuu death note . . . 
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
